@@ -3,7 +3,6 @@ html {
 }
 
 body {
-    font-size: 14px !important;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     height: 100%;
@@ -15,8 +14,8 @@ body {
     color: #333;
     background-color: #fff;
 }
-.form-control {
-    font-size: 14px !important;
+.dropdown-menu, .body, input, button, select, optgroup, textarea, .autocomplete .loaderComplete, .form-control {
+    font-size: 13px !important;
 }
 
 p {
@@ -721,7 +720,7 @@ ul {
     font-family: 'Roboto', sans-serif;
     cursor: pointer;
     display: inline-block;
-    font-size: 17px;
+    font-size: 15px !important;
     font-weight: 500;
     -webkit-box-shadow: none;
     box-shadow: none;
@@ -730,12 +729,13 @@ ul {
     color: #fff;
     border-radius: 3px;
     background-color: #ff0000;
-    padding: 10px 36px;
+    padding: 8px 26px;
     margin-bottom: 10px;
-    width: 100%;
+    width: 54%;
     -webkit-transition: all 0.3s ease-in-out;
     -o-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
+    border-radius: 33px;
 }
 
     .fxt-template-layout22 .fxt-btn-fill:hover {
@@ -1024,3 +1024,221 @@ ul {
         margin-left: 3px;
         color: #000000;
     }
+
+.topPadding {
+    padding-top: 66px !important;
+}
+.topBanner {
+    background: url('../../images/index/tripai.jpg');
+    background-size: cover;
+    padding: 50px 0;
+}
+#rightTab.tabs { background:none; box-shadow:none !important; border:none !important;
+}
+.flightSelectionFormWrap input[type="text"], .flightSelectionFormWrap .dropdown a {
+    color: #313443;
+    font-weight: bold;
+}
+.flightSelectionFormWrap .dropdown a {
+    padding-top: 9px;
+}
+.bGIfGd {
+    background: #fff !important;
+}
+
+#search_form_tabs {
+    background: #fff;
+    border-radius: 10px 10px 0 0;
+    overflow: hidden;
+    max-width: max-content;
+    position: relative;
+    margin: 0 auto;
+}
+    #search_form_tabs button {
+        outline: 0px !important;
+        font-weight:bold !important;
+    }
+    #search_form_tabs .nav-link {
+        padding: 0.8rem 1rem;
+    }
+.nav-tabs .nav-link:hover, .nav-tabs .nav-link:focus {
+    border-color: transparent !important;
+}
+#search_form {
+    box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.1);
+    background: #fff;
+    border-radius: 10px;
+    max-width: max-content;
+    padding: 30px;
+    transition: .5s;
+}
+.minus {
+    display: inline-block;
+    padding: 0px 8px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-right: 1px;
+}
+
+.plus {
+    display: inline-block;
+    padding: 0px 8px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.radioWrap label {
+    color: #333;
+}
+.radioWrap [type='radio']:not(:checked) + span, .radioWrap [type='radio']:checked + span {
+ padding-left:0; margin:0 10px 0 0;
+}
+.reviewForm input:not([type]), input[type='text']:not(.browser-default), .reviewForm input[type='password']:not(.browser-default), .reviewForm input[type='email']:not(.browser-default), .reviewForm input[type='url']:not(.browser-default), .reviewForm input[type='time']:not(.browser-default), .reviewForm input[type='date']:not(.browser-default), .reviewForm input[type='datetime']:not(.browser-default), .reviewForm input[type='datetime-local']:not(.browser-default), .reviewForm input[type='tel']:not(.browser-default), .reviewForm input[type='number']:not(.browser-default), .reviewForm input[type='search']:not(.browser-default), .reviewForm textarea.materialize-textarea {
+    border: 1px solid #ced4da;
+}
+.radioWrap label { margin:0px;
+}
+.colorDisabled {
+    color: rgba(0,0,0,0.5) !important;
+}
+.customDrop .dropdown-trigger {
+    display: block;
+    text-decoration: none;
+    font-weight: normal;
+    margin-top: 36px;
+}
+
+.customDrop .dropdown-content {
+    padding-left: 0;
+    padding: 0 10px;
+    top: 100px !important;
+    overflow: visible;
+}
+
+.dropdown-content:before {
+    content: '';
+    position: absolute;
+    top: -10px;
+    left: 30px;
+    width: 0;
+    height: 0;
+}
+
+.customDrop .dropdown-content li {
+    min-height: 0;
+}
+
+    .customDrop .dropdown-content li.borderBottomNone {
+        border-bottom: none;
+    }
+
+    .customDrop .dropdown-content li > a {
+        display: block;
+        line-height: 22px;
+        padding: 5px 16px;
+        padding-right: 0;
+    }
+
+        .customDrop .dropdown-content li > a span {
+            color: #26a69a;
+            display: inline-block !important;
+            line-height: 22px;
+            padding: 7px 10px;
+            padding-left: 0;
+            color: #5d5d5d;
+        }
+
+        .customDrop .dropdown-content li > a:hover, .customDrop .dropdown-content li > span:hover {
+            text-decoration: none;
+        }
+
+.reservationLeft .input-field.customDrop .dropdown-content span {
+    display: inline-block !important;
+}
+
+.customDrop .dropdown-content li > a span.rightBtns {
+    float: right;
+    display: block;
+}
+
+    .customDrop .dropdown-content li > a span.rightBtns:after {
+        content: '';
+        display: block;
+        width: 100%;
+        clear: both;
+    }
+
+.leftLink {
+    float: left;
+    width: 60%;
+}
+
+.rightLink {
+    float: right;
+    width: 40%;
+}
+
+.customDrop .dropdown-content li:after {
+    content: '';
+    display: block;
+    width: 100%;
+    clear: both;
+}
+
+.dropdown-trigger span {
+    display: inline-block !important;
+    padding: 0 !important;
+}
+.customDrop .dropdown-content li > a.leftLink span.font12 {
+    font-size: 10px;
+    display: inline-block;
+}
+.datePickerStyle {
+font-weight:normal;}
+.autocomplete {
+    position: relative;
+    display: block;
+}
+
+    .autocomplete .loaderComplete {
+        max-height: 180px;
+        overflow: auto;
+        padding-left: 0;
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        background: #fff;
+        z-index: 999;
+    }
+
+    .autocomplete ul.loaderComplete li {
+        display: block;
+        padding: 15px;
+        border-bottom: 1px solid #d1d1d1;
+        background: #fff;
+    }
+
+        .autocomplete ul.loaderComplete li:hover {
+            background: #dc2458;
+            color: #fff;
+        }
+
+#origin {
+    text-transform: uppercase;
+}
+
+#destination {
+    text-transform: uppercase;
+}
+@media (min-width: 1199px) {
+    #search_form {
+        min-width: 100%;
+    }
+}
+
+.fxt-checkbox-area { font-size:13px;
+}
